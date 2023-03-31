@@ -1,0 +1,70 @@
+.nav1 {
+    background-color: #007878;
+
+    .container1 {
+        width: 1138px;
+        height: 48px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    
+
+        div {
+            display: flex;
+            align-items: center;
+            color: white;
+            .faq{
+                border-left:2px  solid white;
+                border-right:2px solid white ;
+            }
+            a {
+                height: 30px;
+                text-decoration: none;
+                color: white;
+                margin-left: 18px;
+                padding: 10px;
+                
+            }
+            
+            p{
+                margin-left: 12px;}
+
+        }
+    }
+}
+.nav2{
+.container2{
+    width: 1138px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    .sorch{
+      display: flex;
+      height: 158px; 
+      gap: 60px;
+        align-items: center;
+        .sing{
+            position: relative;
+                .fa-magnifying-glass{
+                position: absolute;
+                width: 50px;
+                height: 500px;
+                 }
+                 
+             }
+            .basket{
+                display: flex;
+                gap: 18px;
+                font-size: 25px;
+            
+            }
+        
+
+    }
+    
+    
+}
+}
+
+

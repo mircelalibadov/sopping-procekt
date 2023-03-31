@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1138px;
+  margin: auto;
+}
+
+.nav1 {
+  background-color: #007878;
+}
+.nav1 .container1 {
+  width: 1138px;
+  height: 48px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 .container1 div {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.nav1 .container1 div .faq {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.nav1 .container1 div a {
+  height: 30px;
+  text-decoration: none;
+  color: white;
+  margin-left: 18px;
+  padding: 10px;
+}
+.nav1 .container1 div p {
+  margin-left: 12px;
+}
+
+.nav2 .container2 {
+  width: 1138px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav2 .container2 .sorch {
+  display: flex;
+  height: 158px;
+  gap: 60px;
+  align-items: center;
+}
+.nav2 .container2 .sorch .sing {
+  position: relative;
+}
+.nav2 .container2 .sorch .sing .fa-magnifying-glass {
+  position: absolute;
+  width: 50px;
+  height: 500px;
+}
+.nav2 .container2 .sorch .basket {
+  display: flex;
+  gap: 18px;
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */
